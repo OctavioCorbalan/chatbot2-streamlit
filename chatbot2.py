@@ -13,7 +13,7 @@ import time
 # ----------------------------------------------------
 # Configuración de la página (DEBE SER PRIMERO SIEMPRE)
 # ----------------------------------------------------
-st.set_page_config(page_title="Café Premium", page_icon="☕")
+st.set_page_config(page_title="Chatbot", page_icon="☕")
 
 # ----------------------------------------------------
 # 🎨 ESTILOS PERSONALIZADOS PREMIUM + AVATARES
