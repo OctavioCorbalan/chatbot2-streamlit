@@ -11,6 +11,11 @@ import streamlit as st
 import time
 
 # ----------------------------------------------------
+# Configuración de la página (DEBE SER PRIMERO SIEMPRE)
+# ----------------------------------------------------
+st.set_page_config(page_title="Café Premium", page_icon="☕")
+
+# ----------------------------------------------------
 # 🎨 ESTILOS PERSONALIZADOS PREMIUM + AVATARES
 # ----------------------------------------------------
 st.markdown("""
@@ -158,7 +163,6 @@ class RecomendadorLLM:
 # ----------------------------------------------------
 # 🌟 CHAT STREAMLIT CON AVATARES
 # ----------------------------------------------------
-st.set_page_config(page_title="Café Premium", page_icon="☕")
 st.title("☕ Asistente de Café / Té")
 
 avatar_bot = "https://cdn-icons-png.flaticon.com/512/4712/4712100.png"
